@@ -5,12 +5,17 @@
  */
 package LabProgramacion;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author ADMIN
  */
 public class Prueba {
     public static void main(String [] args){
+        ArrayList<Integer> numeros = new ArrayList<>();
+        numeros.add(2);
+        numeros.remove(0);
         
     }
 }
